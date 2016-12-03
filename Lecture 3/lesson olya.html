@@ -12,6 +12,7 @@
       <div class="display-flex">Меня нужно сделать display: flex</div>
       <style>
         .display-flex {
+		display: flex;
 
         }
       </style>
@@ -26,7 +27,7 @@
       </div>
       <style>
         .flex-direction-left {
-
+			flex-direction: row;
         }
       </style>
     </section>
@@ -39,7 +40,7 @@
       </div>
       <style>
         .flex-direction-right {
-
+		flex-direction:row-reverse;
         }
       </style>
     </section>
@@ -52,7 +53,7 @@
       </div>
       <style>
         .flex-direction {
-
+		flex-direction:column;
         }
       </style>
     </section>
@@ -67,12 +68,13 @@
         <div class="dogs dog2"></div>
       </div>
       <style>
+
         .cat1 {
 
         }
 
         .cat2 {
-
+		order: -1;
         }
 
         .dog1 {
@@ -112,7 +114,7 @@
       </div>
       <style>
         .cats-dogs-wrap {
-
+		flex-wrap:wrap;
         }
       </style>
     </section>
@@ -125,7 +127,7 @@
       </div>
       <style>
         .cat-centered {
-
+		justify-content:center;
         }
       </style>
     </section>
@@ -138,7 +140,7 @@
       </div>
       <style>
         .cat-centered-v {
-
+		align-items: center;
         }
       </style>
     </section>
@@ -150,7 +152,8 @@
       </div>
       <style>
         .cat-centered-v-h {
-
+align-items:center;
+justify-content:center;
         }
       </style>
     </section>
@@ -163,7 +166,7 @@
       </div>
       <style>
         .table {
-
+		display: inline;
         }
       </style>
     </section>
