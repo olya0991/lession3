@@ -162,12 +162,76 @@ justify-content:center;
       <h3>Сделайте верстку таблицы с 3 колонками и 10 строчками</h3>
       <p>Используйте inline-стили</p>
       <div class="table">
-
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
+	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>	  
+	  	  <div class="row">
+		<div class="r1"></div>
+		<div class="r2"></div>
+		<div class="r1"></div>	  
+	  </div>
       </div>
       <style>
         .table {
-		display: inline;
+		display:flex;
+		flex-direction:column;
         }
+		.row{
+		display:flex;
+		}
+		.r1{
+		diplay: flex;
+		flex-grow: 1;
+		background-color:red;
+		}
+		.r2{
+		diplay: flex;
+		flex-grow: 2;
+		background-color:yellow;
+		}
+
       </style>
     </section>
   </body>
